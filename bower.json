@@ -16,14 +16,19 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "^3.3.7"
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.6.3"
   },
   "overrides": {
     "bootstrap": {
-      "main": [
+      "main": [       
         "dist/js/bootstrap.js",
-        "dist/css/bootstrap.min.css",
-        "less/bootstrap.less"
+        "dist/css/bootstrap.min.css"
+      ]
+    },
+    "font-awesome": {
+      "main": [
+        "css/font-awesome.min.css"
       ]
     }
   }

@@ -15,7 +15,9 @@ app.engine('handlebars', exphbs());
 app.set('view engine', 'handlebars');
 
 // uncomment after placing your favicon in /public
-//app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
+//app.use(favicon(path.join(__dirname, 'app/public', 'favicon.ico')));
+app.use(favicon(path.join(__dirname, 'app/public','images', 'favicon.ico')));
+
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
