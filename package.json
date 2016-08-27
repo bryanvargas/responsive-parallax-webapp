@@ -1,0 +1,43 @@
+{
+  "name": "responsive-parallax-webapp",
+  "version": "1.0.0",
+  "description": "Desarrollo webapp parallax",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bryanvargas/responsive-parallax-webapp.git"
+  },
+  "author": "Bryan Vargas <bryanprsvar@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bryanvargas/responsive-parallax-webapp/issues"
+  },
+  "homepage": "https://github.com/bryanvargas/responsive-parallax-webapp#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.1",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "morgan": "^1.7.0",
+    "serve-favicon": "^2.3.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-inject": "^4.1.0",
+    "gulp-jscs": "^4.0.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-nodemon": "^2.1.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-size": "^2.1.0",
+    "gulp-uglify": "^2.0.0",
+    "jshint": "^2.9.3",
+    "jshint-stylish": "^2.2.1",
+    "wiredep": "^4.0.0"
+  }
+}

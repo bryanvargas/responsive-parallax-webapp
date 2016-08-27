@@ -1,0 +1,30 @@
+{
+  "name": "responsive-parallax-webapp",
+  "description": "Desarrollo webapp parallax",
+  "main": "server.js",
+  "authors": [
+    "Bryan Vargas <bryanprsvar@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/js/bootstrap.js",
+        "dist/css/bootstrap.min.css",
+        "less/bootstrap.less"
+      ]
+    }
+  }
+}
