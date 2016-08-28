@@ -43,7 +43,7 @@ function errorLog(error) {
 	this.emit('end');
 }
 
-gulp.task('inject', ['minify-css', 'minify-js'], function(){	
+gulp.task('inject', function(){	
 var injectSrc = gulp.src([js.out + '*', css.out + '*'], {read: false});
 
 var injectOptions = {
@@ -89,8 +89,7 @@ gulp.task('jshint', function() {
 });
 
 
-gulp.task('minify-js', function(cb) {
-	cb();
+gulp.task('minify-js', function() {
 	gulp.src(js.in)
 	.pipe(concat(js.filename))
 	.pipe(size({title: 'JS in '}))
@@ -101,8 +100,7 @@ gulp.task('minify-js', function(cb) {
 	.pipe(notify('Done!!!'));
 });
 
-gulp.task('minify-css', function(cb) {
-	cb();
+gulp.task('minify-css', function() {
 	gulp.src(css.in)
 	.pipe(concat(css.filename))
 	.pipe(size({ title: 'CSS in '}))

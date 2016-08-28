@@ -17,11 +17,12 @@
   ],
   "dependencies": {
     "bootstrap": "^3.3.7",
-    "font-awesome": "^4.6.3"
+    "font-awesome": "^4.6.3",
+    "gilbitron/carouFredSel": "carouFredSel#^6.2.1"
   },
   "overrides": {
     "bootstrap": {
-      "main": [       
+      "main": [
         "dist/js/bootstrap.js",
         "dist/css/bootstrap.min.css"
       ]
