@@ -16,7 +16,7 @@ var
 
 
 var
-	jsFiles = ['*.js', 'public/**/*.js'],
+	jsFiles = ['*.js', 'app/public/**/*.js'],
 	source = 'app/temp_files/',
 	dest = 'app/public/',
 
